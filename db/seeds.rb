@@ -55,7 +55,6 @@ post5 = Post.create(author: "Elisha Friedman",
                                 ]) 
 post6 = Post.create(author: "Trevon Rodriguez",
                               authorId: 5,
-                              id: 14,
                               likes: 311,
                               popularity: 0.67,
                               reads: 25644,

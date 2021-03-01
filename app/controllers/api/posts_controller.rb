@@ -1,7 +1,8 @@
 class Api::PostsController < ApplicationController
 
   def index
-    @posts = Post.where(nil)
+    # @posts = Post.where(nil)
+    @posts = Post.all_cached
     if params[:tags].present?
       @posts = @posts.select do |post|
          (post.tags & params[:tags].split(',')).any?
