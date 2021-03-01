@@ -1,6 +1,6 @@
 # README
 
-Things you may want to cover:
+A rails API to return a JSON object with an array of blog posts.
 
 * Fixed some bugs and improved the testing part in the second version.
 * Added caching using MemCacheStore in the third version.
